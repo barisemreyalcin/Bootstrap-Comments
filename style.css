@@ -1,0 +1,32 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.content img {
+    width: 40px;
+    height: 40px;
+    margin-right: .6rem;
+}
+
+.content .fa-star {
+    font-size: 12px;
+}
+
+.checked {
+    color: #FFB100;
+}
+
+.btn-light:hover {
+    border-color: #F4F9F9;
+    color: #4D77FF;
+}
+
+.form-control, .form-select {
+    background-color: #F1F6F5;
+}
